@@ -1,0 +1,40 @@
+\documentclass[blue,casual,12pt]{ustcletter}
+\usepackage{lipsum}
+
+\address{安徽省合肥市金寨路96号}
+\postcode{230026}
+\tel{****-********}
+\fax{****-********}
+\mobile{(+*)*** **** ****}%only for formal theme
+\email{email@ustc.edu.cn}
+\homepage{//www.ustc.edu.cn/}
+
+\begin{document}
+
+USTC Letter是依照《中国科学技术大学视觉形象识别系统管理手册（试行）》的示例制作的LaTeX信纸模板，主要文件是ustcletter.cls以及对应的校名矢量图像。制作本模板的目的是方便TeX用户撰写带有科大标志的文档/信件，免去自行设置的繁琐过程，同时尽可能符合学校的相关规定，使生成的文件更加正式、美观。
+
+模板提供三种形式的信纸布局——formal、casual、draft——以供用户根据不同需要选择。需要注意的是，draft模式暂未完成。同时提供了页面配色功能，提供三种配色方案——blue、red、black。
+
+模板使用方式简介：
+\begin{verbatim}
+        \documentclass[<COLOR>,<THEME>,<OTHER>]{ustcletter}
+\end{verbatim}
+
+
+模板的实现简介：
+
+模板基于article文档类定制，使用xeCJK提供中文支持，使用graphicx+tikz+calc宏包绘制信纸部件，使用color宏包实现配色调整，使用geometry+everypage+fancyhdr宏包控制页面输出。
+
+本模板最佳匹配A4纸张——这个规格是按照学校规定严格设置，通过页面元素缩放来匹配其他类型纸张——这是通过等比缩放色带长度实现，色带宽度以及标志大小不变。
+
+按照学校规定，配色只能使用有限的几种指定色彩，用户如果确实需要调整配色，可以自行修改配色方案。
+
+注意，由于实现方式的原因，需要进行2次甚至更多次编译才能够输出最终页面。
+
+~
+
+~
+
+\lipsum[1-5]
+
+\end{document}}

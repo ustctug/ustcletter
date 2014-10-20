@@ -71,7 +71,7 @@
 	left=3.17cm,
 	right=3.17cm,
 	top=4.6cm,
-	bottom=0.5cm
+	bottom=1.5cm
 	]{geometry}
 \else\ifustc@formal\RequirePackage[
 	left=3.17cm,
@@ -83,7 +83,7 @@
 	left=3.17cm,
 	right=3.17cm,
 	top=4.6cm,
-	bottom=0.5cm
+	bottom=1.5cm
 	]{geometry}
 \else\RequirePackage[
 	left=3.17cm,

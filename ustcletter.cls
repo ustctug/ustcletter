@@ -7,12 +7,12 @@
 %   Created 
 %       2014.06.13 by ywg@USTC
 %   Last Modified
-%       2014.07.08 by ywg@USTC
+%       2015.03.17 by ywg@USTC
 %
 %       $Id$
 %
 \NeedsTeXFormat{LaTeX2e}[1999/12/01]
-\ProvidesClass{ustcletter}[2014/06/13 USTC letter document class. Created: 2014.06.13 by ywg@USTC, Last Modified: 2014.07.08 by ywg@USTC]
+\ProvidesClass{ustcletter}[2015/03/17 USTC letter document class. Created: 2014.06.13 by ywg@USTC, Last Modified: 2015.03.17 by ywg@USTC]
 
 \newif\ifustc@blue\ustc@bluefalse
 \newif\ifustc@black\ustc@blackfalse
